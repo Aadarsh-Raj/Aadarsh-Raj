@@ -5,7 +5,7 @@ https://aadarsh-raj.github.io/Aadarsh-Raj/portfolio/index.html
 ##snapshots-of-hostedlink (: -->
 
 
-[![trophy](https://github-profile-trophy.vercel.app/Aadarsh-Raj=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/Aadarsh-Rajryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
 
 <img width="488" alt="image" src="https://github.com/Aadarsh-Raj/Aadarsh-Raj/assets/74525154/2923583c-68f6-4f30-a8ed-ff86aee0a557">
 <br>
