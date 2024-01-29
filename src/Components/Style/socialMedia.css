@@ -1,0 +1,47 @@
+.social-media{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0px;
+    z-index: 5;
+    animation-name: slider;
+animation-duration: 4s;
+}
+.social-media a{
+    display: flex;
+    align-items: center;
+}
+.social{
+    display: none;
+    text-align: right;
+    font-style: none;
+    padding: 4px;
+    border-radius: 8px 8px 0 8px;
+    color: white;
+}
+.git-link:hover + .github{
+    display: block;
+    background-color: #2f2d2d;
+    
+}
+.linkedin-link:hover + .linkedin{
+    display: block;
+    background-color: rgb(48, 146, 212);
+}
+.social-media .whatsapp-link:hover +.whatsapp{
+    display: block;
+    background-color: rgb(137, 216, 18);
+}
+.insta-link:hover + .instagram{
+    display: block;
+    background-color: rgb(189, 71, 71);
+}
+
+@keyframes slider {
+    from{
+        top:-190px;
+    }
+    to{
+        top:0;
+    }
+}

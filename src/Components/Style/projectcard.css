@@ -1,0 +1,9 @@
+.project-card-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all 4s;
+}
+.project-card-item img{
+    width: 100%;
+}

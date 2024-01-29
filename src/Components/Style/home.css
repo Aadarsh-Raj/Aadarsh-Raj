@@ -1,0 +1,47 @@
+.landing-container{
+    display: flex;
+    justify-content: space-between;
+height: 100vh;
+padding:0 2.5rem;
+}
+.landing-container >div{
+    width: 50%;
+}
+.left-landing-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.landing-container-para-tag{
+    color: rgb(122, 94, 94);
+    font-weight: bolder;
+}
+.landing-page-btn-contaier{
+display: flex;
+gap: 1rem;
+}
+.landing-page-btn-contaier a{
+    padding: 1rem;
+    background-color: rgb(231, 100, 100);
+    border-radius: 0.5rem;
+}
+.short-intro-container{
+    color: rgb(106, 103, 103);
+    font-weight: bold;
+}
+.right-landing-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.right-landing-container img{
+    width: 55%;
+    height: 60%;
+    border-radius: 40%;
+    transition: all 1.5s;
+}

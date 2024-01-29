@@ -1,0 +1,42 @@
+
+.navbar {
+    /* Your navbar styles */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 3rem;
+    background-color: 
+    rgb(254, 78, 78);
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 333;
+  }
+  
+  .navbar--hidden {
+    top: -100px; /* Adjust as per your navbar height */
+  }
+  
+
+
+
+.header-name{
+    color: antiquewhite;
+}
+.nav{
+    display: flex;
+    gap: 1.5rem;
+}
+.nav a{
+    padding: 0.8rem;
+    color: rgb(255, 255, 255);
+text-decoration: none;
+border-radius: 42px;
+background: rgb(244, 110, 110);
+box-shadow:  -5px 8px 15px brown,
+             5px 5px 15px brown;
+}

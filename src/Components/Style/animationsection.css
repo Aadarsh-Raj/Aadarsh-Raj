@@ -1,0 +1,24 @@
+.animation-svg{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity:1; */
+   animation:opacity 5s ease-in-out ;
+}
+/* .animation-svg.remove{
+    opacity: 0;
+} */
+@keyframes opacity {
+    0% {
+opacity: 1;
+    }
+    100%{
+        opacity: 0.1;
+    }
+}
+.welcome-para{
+    color: white;
+}

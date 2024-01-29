@@ -1,0 +1,14 @@
+.project-container{
+    height: calc(100% + 6rem);
+    width: 100vw;
+}
+.project-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+    padding: 1rem 4rem;
+    transition: all 3s;
+}
