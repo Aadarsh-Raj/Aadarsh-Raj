@@ -1,4 +1,4 @@
-Hi Guys (https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif)
+Hi Guys!
 <br>
 Check My Portfolio here 👉 [Aadarsh Raj](https://aadarshrajportfolio.netlify.app/) <br>
 
