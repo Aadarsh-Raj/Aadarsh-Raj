@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     /* opacity:1; */
+    padding: 0 3rem;
    animation:opacity 5s ease-in-out ;
 }
 /* .animation-svg.remove{
@@ -21,4 +22,16 @@ opacity: 1;
 }
 .welcome-para{
     color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .animation-svg{
+        font-size: 62%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .animation-svg{
+    text-align: end;
+    padding: 0 2rem;
+    }
 }

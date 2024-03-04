@@ -24,3 +24,9 @@
 border: none;
 font-weight: bold;
 }
+
+@media  screen and (max-width:475px) {
+    .form{
+        width: 95%;
+    }
+}
