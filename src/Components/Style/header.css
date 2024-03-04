@@ -40,3 +40,9 @@ background: rgb(244, 110, 110);
 box-shadow:  -5px 8px 15px brown,
              5px 5px 15px brown;
 }
+
+@media screen and (max-width:750px) {
+  .nav{
+    display: none;
+  }
+}
