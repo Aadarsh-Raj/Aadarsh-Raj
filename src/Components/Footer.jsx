@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
     <footer className="footer">
-        Created By <a href="">Aadarsh Raj</a> | ©2024 All rights reserved 
+        Created By <a href="https://www.linkedin.com/in/aadarsh-raj-80b862216/" target='blank' style={{color:"yellow"}}>Aadarsh Raj</a> | ©2024 All rights reserved 
     </footer>
     </>
   )

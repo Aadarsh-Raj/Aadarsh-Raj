@@ -1,5 +1,6 @@
 .main{
-    background-color: #EBD3F8;
+    /* background-color: #EBD3F8; */
+    background-color: whitesmoke;
     transition: all 2s ease-in-out;
     animation: render 2s ease-out;
     scroll-behavior: smooth;
