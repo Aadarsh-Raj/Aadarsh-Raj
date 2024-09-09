@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="skills-svg">
           <svg
             height="400"
-            viewBox="0 0 1040 400"
+            viewBox="0 0 1000 400"
             preserveAspectRatio="xMidYMid meet"
           >
             <g transform="translate(520,200)">

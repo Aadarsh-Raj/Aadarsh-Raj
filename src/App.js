@@ -14,9 +14,7 @@ function App() {
   return (
     <>
       {welcome == "" ? (
-        <div>
           <Main />
-        </div>
       ) : (
         welcome
       )}
