@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import SocialMedia from "./SocialMedia";
 import React, { useState, useEffect } from "react";
 import "./Style/main.css";
+import Footer from "./Footer";
 const Main = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Main = () => {
         <Projects />
         <Skills />
         <Contact />
+        <Footer />
       </main>
     </>
   );
