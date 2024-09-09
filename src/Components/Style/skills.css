@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 }
 .skills-svg svg{
     width: 100%;
