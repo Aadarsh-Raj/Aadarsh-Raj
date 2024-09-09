@@ -1,64 +1,86 @@
-.landing-container{
-    display: flex;
-    justify-content: space-between;
-height: 100vh;
-padding:0 2.5rem;
-margin-top: 1rem;
+.landing-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 2.5rem;
+  margin-top: 1rem;
 }
-.landing-container >div{
-    width: 50%;
+.landing-container > div {
+  width: 50%;
 }
-.left-landing-container{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.landing-container-para-tag{
-    color: rgb(122, 94, 94);
-    font-weight: bolder;
-}
-.landing-page-btn-contaier{
-display: flex;
-gap: 1rem;
-}
-.landing-page-btn-contaier a{
-    padding: 1rem;
-    background-color: rgb(231, 100, 100);
-    border-radius: 0.5rem;
-}
-.short-intro-container{
-    color: rgb(106, 103, 103);
-    font-weight: bold;
-}
-.right-landing-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.right-landing-container img{
-    width: 55%;
-    height: 60%;
-    border-radius: 40%;
-    transition: all 1.5s;
+.left-landing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: #7A1CAC;
 }
 
-@media screen and (max-width:625px) {
-    .landing-container{
-        flex-direction: column-reverse;
-        align-items: center;
-        padding: 0;
-        justify-content: center;
-        gap: 0.5rem;
+.left-landing-container h1 span{
+font-size: 4.6875rem;
+}
+.landing-container-para-tag {
+  color: #7A1CAC;
+  font-weight: bolder;
+}
+.landing-container-para-tag span{
+  color: red;
+  font-size: x-large;
+}
+.landing-page-btn-contaier {
+  display: flex;
+  gap: 1rem;
+}
+.landing-page-btn-contaier a {
+  padding: 1rem;
+  background-color: #9400FF;
+  color: #CAF4FF;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.landing-page-btn-contaier a:hover{
+  background-color: #5AB2FF;
+  color: #fff;
+}
+.short-intro-container {
+  color: #7A1CAC;
+  font-weight: bold;
+}
+.right-landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.right-landing-container img {
+  width: 55%;
+  height: 60%;
+  transition: all 1.5s;
+  image-resolution: 1024px;
+}
+
+@media screen and (max-width: 625px) {
+  .left-landing-container{
+    padding: 1rem;
+    text-align: center;
+  }
+  .landing-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .left-landing-container h1 span{
+    font-size: 3.2rem;
     }
-    .landing-container>div{
-        width: 100%;
-    }
-    .right-landing-container img{
-        height: 82%;
-    }
+  .landing-container > div {
+    width: 100%;
+  }
+  .right-landing-container img {
+    height: 82%;
+  }
 }

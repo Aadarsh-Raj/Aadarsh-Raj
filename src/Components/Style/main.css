@@ -1,10 +1,9 @@
 .main{
-    /* background-color: #a871db; */
-    /* color: white; */
-    /* overflow: scroll;
-    height: 100vh; */
+    background-color: #EBD3F8;
     transition: all 2s ease-in-out;
     animation: render 2s ease-out;
+    scroll-behavior: smooth;
+   
 }
 @keyframes render {
     0%{

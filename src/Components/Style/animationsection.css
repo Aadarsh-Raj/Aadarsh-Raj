@@ -1,37 +1,153 @@
-.animation-svg{
-    width: 100vw;
-    height: 100vh;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* opacity:1; */
-    padding: 0 3rem;
-   animation:opacity 5s ease-in-out ;
+/* .animation-svg {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://static.vecteezy.com/system/resources/previews/000/523/181/original/mobile-application-ui-ux-design-and-development-concept-on-smartphone-screen-and-programming-language-vector.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+
 }
-/* .animation-svg.remove{
-    opacity: 0;
-} */
-@keyframes opacity {
-    0% {
-opacity: 1;
-    }
-    100%{
-        opacity: 0.1;
-    }
+.animation-svg svg {
+  height: 654px;
 }
-.welcome-para{
-    color: white;
+.welcome-para h1 {
+  color: plum;
+  position: absolute;
+  left: 23%;
+  top: 38%;
+  font-size: small;
+}
+.name-para h1 {
+  position: absolute;
+  color: purple;
+  left: 23.5%;
+  font-size: small;
+  bottom: 42.5%;
 }
 
+
 @media screen and (max-width: 1200px) {
-    .animation-svg{
-        font-size: 62%;
-    }
+  .animation-svg {
+    background-size: contain;
+    background-color: #0f2c5d;
+    gap: 11rem;
+  }
+  .animation-svg svg {
+    height: 380px;
+  }
+  .welcome-para h1 {
+    left: 53%;
+    color: whitesmoke;
+    top: 33%;
+    font-size: larger;
+  }
+  .name-para h1 {
+    display: none;
+  }
 }
 @media screen and (max-width: 500px) {
-    .animation-svg{
-    text-align: end;
-    padding: 0 2rem;
-    }
+  .animation-svg svg {
+    height: 180px;
+  }
+  .welcome-para h1 {
+    left: 54%;
+    color: whitesmoke;
+    top: 34%;
+    font-size: x-small;
+  }
+} */
+
+/* #cc01d6  #0f2b5d   #01a8bb*/
+
+.animation-svg {
+  background: linear-gradient(
+    to left,
+    rgba(204, 1, 214, 1) 0%,
+    rgba(1, 168, 187, 1) 79%
+  );
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  animation: opacity 4s ease-in-out;
+}
+.background-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+.background-div img {
+  width: 100%;
+  height: 100%;
+}
+.pikachu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  z-index: 1;
+}
+.pikachu-container strong {
+  font-size: xx-large;
+  color: whitesmoke;
+}
+.svg-container svg {
+  height: 450px;
+}
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .animation-svg {
+    gap: 20rem;
+  }
+  .background-div {
+    top: 23%;
+  }
+  .background-div img {
+    height: 56%;
+  }
+  .pikachu-container {
+    gap: 0;
+  }
+  .svg-container svg {
+    height: 320px;
+  }
+  .pikachu-container strong {
+    font-size: larger;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .animation-svg {
+    gap: 12rem;
+  }
+  .background-div {
+    top: 30%;
+  }
+  .background-div img {
+    height: 42%;
+  }
+  .pikachu-container strong {
+    font-size: small;
+  }
+  .svg-container svg {
+    height: 160px;
+  }
 }

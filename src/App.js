@@ -8,15 +8,19 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setWelcome(() => "");
-    }, 3000);
+    }, 4000);
   }, []);
- 
+
   return (
     <>
-    {welcome == "" ? <div >
-    <Main  />
-    </div> : welcome}
-   </>
+      {welcome == "" ? (
+        <div>
+          <Main />
+        </div>
+      ) : (
+        welcome
+      )}
+    </>
   );
 }
 
