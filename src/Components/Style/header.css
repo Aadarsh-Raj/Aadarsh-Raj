@@ -49,6 +49,59 @@
 .hire-button a:hover {
   color: #5ab2ff;
 }
+
+/* From Uiverse.io by joe-watson-sbf */
+.hire-btn {
+  font-size: 17px;
+  font-weight: bolder;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.hire-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: red;
+  transition: 0.5s ease;
+}
+
+.hire-btn:hover {
+  color: #2e073e;
+  transition-delay: 0.5s;
+}
+
+.hire-btn:hover::before {
+  width: 100%;
+}
+
+.hire-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #d4f0f6;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.hire-btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+
 @media screen and (max-width: 750px) {
   .nav {
     display: none;

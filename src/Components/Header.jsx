@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import './Style/header.css';
+import React, { useState, useEffect } from "react";
+import "./Style/header.css";
 const Header = (prop) => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -12,37 +12,43 @@ const Header = (prop) => {
       setPrevScrollPos(currentScrollPos);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [prevScrollPos, visible]);
 
-
   return (
     <>
-    <header className={`navbar ${visible ? '' : 'navbar--hidden'}`} >
+      <header className={`navbar ${visible ? "" : "navbar--hidden"}`}>
         <div className="header-name">
-            <a href="/"><h2>Ar<span>ya</span></h2></a>
+          <a href="/">
+            <h2>
+              Ar<span>ya</span>
+            </h2>
+          </a>
         </div>
         <nav className="nav">
-            <a href='#home'>Home</a>
-            <a href='#project'>Projects</a>
-            <a href='#skill'>Skills</a>
-            <a href='#contact'>Contact</a>
+          <a href="#home">Home</a>
+          <a href="#project">Projects</a>
+          <a href="#skill">Skills</a>
+          <a href="#contact">Contact</a>
         </nav>
         <div className="hire-button">
-        <a href='https://www.linkedin.com/in/aadarsh-raj-80b862216/' target='blank'>Hire Me</a>
+          <a
+            href="https://www.linkedin.com/in/aadarsh-raj-80b862216/"
+            target="blank"
+          >
+            <button class="hire-btn">Hire Me</button>
+          </a>
         </div>
-    </header>
-    
+      </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
-
+export default Header;
 
 // <nav >
 //       <ul>

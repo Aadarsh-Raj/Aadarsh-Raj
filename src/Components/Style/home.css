@@ -5,7 +5,6 @@
   width: 100%;
   padding: 0 2.5rem;
   margin-top: 1rem;
-  /* color: #7A1CAC; */
 }
 .landing-container > div {
   width: 50%;
@@ -17,16 +16,15 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  
 }
 
-.left-landing-container h1 span{
-font-size: 4.6875rem;
+.left-landing-container h1 span {
+  font-size: 4.6875rem;
 }
 .landing-container-para-tag {
   font-weight: bolder;
 }
-.landing-container-para-tag span{
+.landing-container-para-tag span {
   color: red;
   font-size: x-large;
 }
@@ -36,14 +34,16 @@ font-size: 4.6875rem;
 }
 .landing-page-btn-contaier a {
   padding: 1rem;
-  background-color: #9400FF;
-  color: #CAF4FF;
-  border-radius: 0.5rem;
+  border:2px solid #2e073ea2;
+  background-color: #2e073e;
+  box-shadow: inset 0px 0px 23px -4px rgba(255,255,255,0.6);
+  color: white;
+  border-radius: 0.3rem;
   transition: all 0.3s ease-in-out;
 }
-.landing-page-btn-contaier a:hover{
-  background-color: #5AB2FF;
-  color: #fff;
+.landing-page-btn-contaier a:hover {
+  color: rgb(233, 229, 229);
+  transform: scale(1.1);
 }
 .short-intro-container {
   /* color: #D2E0FB; */
@@ -64,7 +64,7 @@ font-size: 4.6875rem;
 }
 
 @media screen and (max-width: 625px) {
-  .left-landing-container{
+  .left-landing-container {
     padding: 1rem;
     text-align: center;
   }
@@ -75,9 +75,9 @@ font-size: 4.6875rem;
     justify-content: center;
     gap: 0.5rem;
   }
-  .left-landing-container h1 span{
+  .left-landing-container h1 span {
     font-size: 3.2rem;
-    }
+  }
   .landing-container > div {
     width: 100%;
   }

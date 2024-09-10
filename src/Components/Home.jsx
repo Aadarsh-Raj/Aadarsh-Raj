@@ -51,11 +51,11 @@ const Home = ({ lightMode }) => {
             Crafting Tomorrow's Success, Designing Dreams, Building Realities
           </p>
           <div className="landing-page-btn-contaier">
-            <a href="https://www.linkedin.com/in/aadarsh-raj-80b862216/">
-              Contact Me
+            <a href="#contact">
+              I need a website
             </a>
             <a href="https://www.linkedin.com/in/aadarsh-raj-80b862216/">
-              Hire Me
+              I'm looking to hire
             </a>
           </div>
         </div>
