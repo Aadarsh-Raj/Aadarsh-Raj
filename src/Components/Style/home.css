@@ -5,6 +5,7 @@
   width: 100%;
   padding: 0 2.5rem;
   margin-top: 1rem;
+  /* color: #7A1CAC; */
 }
 .landing-container > div {
   width: 50%;
@@ -16,14 +17,13 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  color: #7A1CAC;
+  
 }
 
 .left-landing-container h1 span{
 font-size: 4.6875rem;
 }
 .landing-container-para-tag {
-  color: #7A1CAC;
   font-weight: bolder;
 }
 .landing-container-para-tag span{
@@ -46,7 +46,7 @@ font-size: 4.6875rem;
   color: #fff;
 }
 .short-intro-container {
-  color: #7A1CAC;
+  /* color: #D2E0FB; */
   font-weight: bold;
 }
 .right-landing-container {

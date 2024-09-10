@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import profilePic from "./Assets/aadarsh.jpg";
 import "./Style/home.css";
 import { motion } from "framer-motion";
-const Home = () => {
+const Home = ({ lightMode }) => {
   const texts = [
     "Web Developer",
     "React.js Developer",
@@ -33,7 +33,11 @@ const Home = () => {
   }, [charIndex, textIndex, texts]);
   return (
     <>
-      <section className="landing-container" id="home">
+      <section
+        className="landing-container"
+        style={{ color: lightMode ? "#7A1CAC" : "white" }}
+        id="home"
+      >
         <div className="left-landing-container">
           <h1>
             Hello👋 I'm

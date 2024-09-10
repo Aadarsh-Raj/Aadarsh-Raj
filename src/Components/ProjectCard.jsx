@@ -30,8 +30,8 @@ const ProjectCard = (prop) => {
           </a>
         </div>
         <div className="card-details">
-          <p>{prop.cardData.title}</p>
-          <a href={prop.cardData.github} target="blank">
+          <p style={{color: prop.lightMode ? "#9300ff" : "#D2E0FB"}}>{prop.cardData.title}</p>
+          <a href={prop.cardData.github} target="blank" style={{color: prop.lightMode ? "#5e1d79" : "#010409"}}>
             Github{" "}
           </a>
           <span>|&nbsp;</span>

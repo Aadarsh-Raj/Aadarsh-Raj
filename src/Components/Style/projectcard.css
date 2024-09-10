@@ -13,10 +13,6 @@
   color: #AD49E1;
 }
 
-.card-details a:nth-child(2){
-    color: #5e1d79;
-}
-
 @media screen and (max-width: 700px) {
   .project-card-item {
     flex-basis: 40%;

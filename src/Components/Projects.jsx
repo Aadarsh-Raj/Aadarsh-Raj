@@ -5,7 +5,7 @@ import projectArray from "./project.json";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-const Projects = () => {
+const Projects = ({lightMode}) => {
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -35,7 +35,7 @@ const Projects = () => {
           animate="visible"
         >
           {projectArray.map((ele, index) => (
-            <ProjectCard key={ele.id} cardData={ele} variants={item} />
+            <ProjectCard key={ele.id} lightMode={lightMode} cardData={ele} variants={item} />
           ))}
         </motion.div>
       </section>

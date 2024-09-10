@@ -1,8 +1,16 @@
 .main{
     background-color: white;
+    /* background-color: #2e073fd7; */
     transition: all 2s ease-in-out;
     animation: render 2s ease-out;
     scroll-behavior: smooth;
+    position: relative;
+}
+.mode-changer-container{
+    position: fixed;
+    z-index: 11111111;
+    right: 2rem;
+    top: 16%;
 }
 @keyframes render {
     0%{
