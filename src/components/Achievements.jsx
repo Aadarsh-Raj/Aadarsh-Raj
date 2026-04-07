@@ -25,7 +25,7 @@ const Achievements = () => {
   const [selectedAchievement, setSelectedAchievement] = useState(null);
 
   return (
-    <section className="relative py-32 overflow-hidden min-h-screen">
+    <section className="relative py-32 overflow-hidden min-h-screen" id='achievement'>
       <div className="max-w-6xl mx-auto relative z-10 px-6">
         <div className="text-center mb-24">
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tighter mb-6">

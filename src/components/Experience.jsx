@@ -26,7 +26,7 @@ const Experience = () => {
   const lineHeight = useTransform(pathProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <section className="relative py-32 overflow-hidden min-h-screen">
+    <section className="relative py-32 overflow-hidden min-h-screen" id='experience'>
       <SectionSpotlight />
       <div className="max-w-6xl mx-auto relative z-10 px-6">
         <div className="text-center mb-32">

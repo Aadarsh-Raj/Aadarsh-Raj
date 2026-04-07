@@ -41,6 +41,20 @@ const Navbar = ({ activeSection }) => {
     }
   };
 
+  useEffect(() => {
+    const hash = window.location.hash;
+
+    if (hash) {
+      const id = hash.replace("#", "");
+      const element = document.getElementById(id);
+
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, []);
   return (
     <div className="fixed top-6 inset-x-0 flex justify-center z-[100] px-4 pointer-events-none">
       <motion.nav

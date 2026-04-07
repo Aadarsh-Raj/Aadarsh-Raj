@@ -31,7 +31,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="relative py-32 px-6">
+    <section className="relative py-32 px-6" id='project'>
       <SectionSpotlight />
       <div className="max-w-4xl mx-auto text-center mb-24 relative z-10">
         <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tighter mb-6">

@@ -3,7 +3,7 @@ import { GraduationCap, BookOpen, Code, Database } from 'lucide-react';
 
 const Education = () => {
   return (
-    <section className="relative py-32 overflow-hidden min-h-screen">
+    <section className="relative py-32 overflow-hidden min-h-screen" id='education'>
       <div className="max-w-5xl mx-auto relative z-10 px-6">
         <div className="text-center mb-24">
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tighter mb-6">

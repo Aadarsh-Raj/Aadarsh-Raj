@@ -39,7 +39,7 @@ const tools = [
 
 const About = () => {
   return (
-    <section className="relative pt-32 overflow-hidden flex flex-col items-center justify-center min-h-screen">
+    <section className="relative pt-32 overflow-hidden flex flex-col items-center justify-center min-h-screen" id='about'>
       <div className="max-w-5xl mx-auto relative z-10 px-6 w-full mb-32">
         <div className="text-center mb-20">
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tighter mb-6">

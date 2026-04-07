@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative pt-32 pb-10 overflow-hidden">
+    <section className="relative pt-32 pb-10 overflow-hidden" id={"contact"}>
       
       <SectionSpotlight />
 
