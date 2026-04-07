@@ -59,7 +59,7 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p variants={itemVariants} className="max-w-xl text-slate-600 dark:text-zinc-400 text-base sm:text-lg lg:text-xl font-medium mb-8 lg:mb-10 leading-relaxed px-2 lg:px-0">
-            Hi, I'm Aadarsh. I architect and build highly performant, scalable web applications from robust backend systems to pixel-perfect, interactive frontend interfaces.
+            Hi, I'm Aadarsh. I architect and build highly performant, scalable web applications from robust backend systems to pixel-perfect, interactive frontend interfaces and managing the servers.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto px-2 lg:px-0">
