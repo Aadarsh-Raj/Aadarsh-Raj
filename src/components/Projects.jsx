@@ -4,12 +4,12 @@ import SectionSpotlight from './SectionSpotlight';
 
 const projects = [
   {
-    title: "Studynotion",
-    description: "A full-featured EdTech platform that enables users to explore courses, watch lectures, and make secure payments. Includes user authentication, course management, and seamless Razorpay payment integration.",
-    href: "https://arya-studynotion.netlify.app/",
-    tech: ["React", "Nodejs", "Razorpay Payment Gateway"],
-    color: "from-cyan-500 to-blue-500",
-    glow: "shadow-cyan-500/10 group-hover:shadow-[0_20px_60px_rgba(6,182,212,0.3)]"
+    title: "Lead Generation Website",
+    description: "Full-stack development, authentication, lead workflows, payments, Campaign management, ratings, and deployment for a lead generation website.",
+    href: "",
+    tech: ["React", "Nodejs", "Stripe Payment Gateway, AWS EC2, PostgreSQL"],
+    color: "from-[#3a331b] to-[#93b1a8]",
+    glow: "shadow-[#93b1a8]/10 group-hover:shadow-[0_20px_60px_rgba(147,177,168,0.3)]"
   },
   {
     title: "Thread Clone",
