@@ -5,6 +5,13 @@ import SectionSpotlight from './SectionSpotlight';
 
 const experiences = [
   {
+    role: "Chief Operating Officer (COO)",
+    company: "Webnooz",
+    duration: "2026 - Present",
+    description: "Overseeing operations and strategic initiatives. Driving growth and innovation in web development projects.",
+    tech: ["React", "TypeScript", "Node.js", "AWS", "MongoDb", "PostgressSql", "cPanel", "Supabase"]
+  },
+  {
     role: "Web Developer",
     company: "Virtual Tech Masters",
     duration: "2024 - Present",
